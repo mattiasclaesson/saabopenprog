@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B1F92B5615057EB100449CA9 /* saabopenprog */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* saabopenprog */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* saabopenprog */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = B1F92B5C15057EC900449CA9 /* Code sense */;
+		executables = (
+			B1F92B5615057EB100449CA9 /* saabopenprog */,
+		);
+		expressions = (
+			rx_buf,
+			"rx_buf[0]",
+			"rx_buf[1]",
+			"rx_buf[2]",
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					989,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					281,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 366417540;
+			PBXWorkspaceStateSaveDate = 366417540;
+		};
+		perUserProjectItems = {
+			B136A067155B0F1400D12283 = B136A067155B0F1400D12283 /* PBXTextBookmark */;
+			B136A069155B0F1400D12283 = B136A069155B0F1400D12283 /* PBXTextBookmark */;
+			B136A06B155B0F1400D12283 = B136A06B155B0F1400D12283 /* PBXTextBookmark */;
+			B136A06C155B0F1400D12283 = B136A06C155B0F1400D12283 /* PBXTextBookmark */;
+			B136A10C155B317800D12283 = B136A10C155B317800D12283 /* PBXTextBookmark */;
+			B136A10E155B317800D12283 = B136A10E155B317800D12283 /* PBXTextBookmark */;
+			B13EAE491508248A00F3F995 = B13EAE491508248A00F3F995 /* PBXTextBookmark */;
+			B1C22B5415D7167D00E094A7 = B1C22B5415D7167D00E094A7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B1F92B5B15057EC900449CA9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* saabopenprog */ = {
+		activeExec = 0;
+		executables = (
+			B1F92B5615057EB100449CA9 /* saabopenprog */,
+		);
+	};
+	B136A067155B0F1400D12283 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B136A068155B0F1400D12283 /* main.c */;
+		name = "main.c: 1420";
+		rLen = 1564;
+		rLoc = 43589;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 43508;
+	};
+	B136A068155B0F1400D12283 /* main.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = main.c;
+		path = "/Users/mattiasclaesson/SaabOpenTech-v0/main.c";
+		sourceTree = "<absolute>";
+	};
+	B136A069155B0F1400D12283 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B136A06A155B0F1400D12283 /* main.c */;
+		name = "main.c: 2339";
+		rLen = 1255;
+		rLoc = 87801;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 87608;
+	};
+	B136A06A155B0F1400D12283 /* main.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = main.c;
+		path = "/Users/mattiasclaesson/SaabOpenProg-v0/main.c";
+		sourceTree = "<absolute>";
+	};
+	B136A06B155B0F1400D12283 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1F92B6515057F3200449CA9 /* lawcel_canusb_ftd2xx.h */;
+		name = "lawcel_canusb_ftd2xx.h: 35";
+		rLen = 0;
+		rLoc = 817;
+		rType = 0;
+		vrLen = 1488;
+		vrLoc = 3;
+	};
+	B136A06C155B0F1400D12283 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B136A06D155B0F1400D12283 /* ftd2xx.h */;
+		name = "ftd2xx.h: 384";
+		rLen = 17;
+		rLoc = 7493;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 7872;
+	};
+	B136A06D155B0F1400D12283 /* ftd2xx.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ftd2xx.h;
+		path = /Users/mattiasclaesson/git/saabopenprog/saabopenprog/ftd2xx.h;
+		sourceTree = "<absolute>";
+	};
+	B136A10C155B317800D12283 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1F92B6415057F3200449CA9 /* lawcel_canusb_ftd2xx.c */;
+		name = "lawcel_canusb_ftd2xx.c: 313";
+		rLen = 11;
+		rLoc = 6612;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 10723;
+	};
+	B136A10E155B317800D12283 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1F92B6215057F2200449CA9 /* main.c */;
+		name = "main.c: 2412";
+		rLen = 0;
+		rLoc = 90642;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 89966;
+	};
+	B13EAE491508248A00F3F995 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B13EAE4A1508248A00F3F995 /* unistd.h */;
+		name = "unistd.h: 511";
+		rLen = 6;
+		rLoc = 17861;
+		rType = 0;
+		vrLen = 1023;
+		vrLoc = 17249;
+	};
+	B13EAE4A1508248A00F3F995 /* unistd.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = unistd.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h;
+		sourceTree = "<absolute>";
+	};
+	B1C22B5415D7167D00E094A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1F92B6215057F2200449CA9 /* main.c */;
+		name = "main.c: 2401";
+		rLen = 0;
+		rLoc = 90128;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 89947;
+	};
+	B1F92B5615057EB100449CA9 /* saabopenprog */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"R asdf.bin",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = saabopenprog;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B1F92B5B15057EC900449CA9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B1F92B5C15057EC900449CA9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B1F92B6215057F2200449CA9 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 33293}}";
+			sepNavSelRange = "{90128, 0}";
+			sepNavVisRange = "{89947, 674}";
+			sepNavWindowFrame = "{{382, 105}, {695, 773}}";
+		};
+	};
+	B1F92B6415057F3200449CA9 /* lawcel_canusb_ftd2xx.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 6903}}";
+			sepNavSelRange = "{11209, 0}";
+			sepNavVisRange = "{10337, 1064}";
+			sepNavWindowFrame = "{{15, 80}, {872, 798}}";
+		};
+	};
+	B1F92B6515057F3200449CA9 /* lawcel_canusb_ftd2xx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 637}}";
+			sepNavSelRange = "{160, 6}";
+			sepNavVisRange = "{0, 690}";
+			sepNavWindowFrame = "{{15, 128}, {1286, 745}}";
+		};
+	};
+}

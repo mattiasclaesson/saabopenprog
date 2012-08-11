@@ -1,0 +1,161 @@
+Tsaabopentechproj
+v7
+r0
+t352837162.050089
+cCheck dependencies
+cDistributed-CompileC /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/main.o /Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cDistributed-CompileC /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/lawcel_canusb_ftd2xx.o /Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/saabopentechproj normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libftd2xx.dylib
+c000000004D3C57340000000000067B50
+t1295800116
+s424784
+
+N/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/saabopentechproj
+t1331144362
+s39400
+
+N/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/lawcel_canusb_ftd2xx.o
+t1331144361
+s17132
+
+N/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/main.o
+t1331144362
+s38724
+
+N/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/saabopentechproj.LinkFileList
+c000000004F57A6A90000000000000130
+t1331144361
+s304
+
+N/Users/mattiasclaesson/git/saabopentech/saabopentechproj/WinTypes.h
+c000000004D44945B0000000000000900
+t1296340059
+s2304
+i<sys/time.h>
+
+N/Users/mattiasclaesson/git/saabopentech/saabopentechproj/ftd2xx.h
+c000000004D4493C5000000000000600B
+t1296339909
+s24587
+i<pthread.h>
+i"WinTypes.h"
+
+N/Users/mattiasclaesson/git/saabopentech/saabopentechproj/info_texts.h
+c000000004D44926D000000000000014A
+t1296339565
+s330
+
+N/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c
+c000000004F54FE8B0000000000002910
+t1330970251
+s10512
+i"lawcel_canusb_ftd2xx.h"
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<signal.h>
+i<string.h>
+
+N/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.h
+c000000004F53EB740000000000000537
+t1330899828
+s1335
+i"ftd2xx.h"
+
+N/Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c
+c000000004F553328000000000000B033
+t1330983720
+s45107
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<signal.h>
+i<string.h>
+i"ftd2xx.h"
+i"info_texts.h"
+i"lawcel_canusb_ftd2xx.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies352837161#352837161#0(0"0(0#1#0"8614805824#0"0#
+
+CDistributed-CompileC /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/lawcel_canusb_ftd2xx.o /Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c normal x86_64 c com.apple.compilers.gcc.4_2
+s352837161.777439
+e352837161.926307
+r1
+xDistributed-CompileC
+x/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/lawcel_canusb_ftd2xx.o
+x/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c: In function 'readFrame':
+o/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c:479: warning: format '%03x' expects type 'unsigned int *', but argument 3 has type 'long unsigned int *'
+lSLF07#2@105"Distribute compilation of /Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c352837161#352837161#0(291"/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c: In function 'readFrame':/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c:479: warning: format '%03x' expects type 'unsigned int *', but argument 3 has type 'long unsigned int *'1(22@90"Format '%03x' expects type 'unsigned int *', but argument 3 has type 'long unsigned int *'352837161#106#185#0(6@79"/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c352663051#479#0#479#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#79"/Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c8612936672#1876"    cd /Users/mattiasclaesson/git/saabopentech/saabopentechproj    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5666) (dot 3)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.8 (10K549, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-generated-files.hmap -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-own-target-headers.hmap -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-all-target-headers.hmap -iquote /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-project-headers.hmap -fpch-preprocess -F/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/include -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/DerivedSources/x86_64 -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/DerivedSources -c /Users/mattiasclaesson/git/saabopentech/saabopentechproj/lawcel_canusb_ftd2xx.c -o /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/lawcel_canusb_ftd2xx.o0#
+
+CDistributed-CompileC /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/main.o /Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s352837161.776291
+e352837162.028379
+r1
+xDistributed-CompileC
+x/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/main.o
+x/Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Distribute compilation of /Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c352837161#352837162#0(0"0(0#0#63"/Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c8612996032#1844"    cd /Users/mattiasclaesson/git/saabopentech/saabopentechproj    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5666) (dot 3)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.8 (10K549, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-generated-files.hmap -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-own-target-headers.hmap -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-all-target-headers.hmap -iquote /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/saabopentechproj-project-headers.hmap -fpch-preprocess -F/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/include -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/DerivedSources/x86_64 -I/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/DerivedSources -c /Users/mattiasclaesson/git/saabopentech/saabopentechproj/main.c -o /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/saabopentechproj normal x86_64
+s352837162.028475
+e352837162.050030
+r1
+xLd
+x/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/saabopentechproj
+xnormal
+xx86_64
+lSLF07#2@90"Link /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/saabopentechproj352837162#352837162#0(0"0(0#0#0"8614893376#633"    cd /Users/mattiasclaesson/git/saabopentech/saabopentechproj    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug -F/Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug -filelist /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/saabopentechproj.build/Debug/saabopentechproj.build/Objects-normal/x86_64/saabopentechproj.LinkFileList -mmacosx-version-min=10.6 -lftd2xx -o /Users/mattiasclaesson/git/saabopenprog/saabopenprogproj/build/Debug/saabopentechproj0#
+
