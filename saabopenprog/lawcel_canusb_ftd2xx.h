@@ -9,7 +9,7 @@
 
 #include "ftd2xx.h"
 
-#define BUF_SIZE 100
+#define BUF_SIZE 30
 
 #define CANUSB_STATE_NONE  0
 #define CANUSB_STATE_MSG   1

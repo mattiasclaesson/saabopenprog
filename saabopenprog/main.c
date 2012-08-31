@@ -267,12 +267,12 @@ int main(int argc, char *argv[])
 	FT_Purge(&h, 3); // rx+tx
 	
 	
-	setTimeouts( h, 0x80, 0x17A );       // 3 second read + write timeouts
+	setTimeouts( h, 0x20, 0x40 );       //  read + write timeouts 0x80 0x17A
 	FT_SetUSBParameters(&h, 0x8000, 0);
 	
 	FT_GetLatencyTimer(&h, &pucLatency); //25 ms
 	printf("getlatency=%u\n",pucLatency);
-	pucLatency=10;
+	pucLatency=2;
 	FT_SetLatencyTimer(&h, pucLatency);
 	FT_GetLatencyTimer(&h, &pucLatency); //25 ms
 	printf("getlatency=%u\n",pucLatency);
@@ -457,7 +457,7 @@ int main(int argc, char *argv[])
         if( !(operation & RAW_WRITE) ) strncpy( tester, "SAAB_OPEN_PRG", 13 );
     
         // Confirm that the user really wants to program
-        dwStart = gettickscount();
+        dwStart = time(NULL); //time(NULL);
         printf(/*"Ensure that the VIN shown above is the correct one!\n\n"*/
                "Note! If programming fails, you will probably have to re-program it using the\n"
                "BDM interface. This means getting the right hardware, opening the Trionic box,\n"
@@ -505,16 +505,16 @@ int main(int argc, char *argv[])
         // Erase
         printf("Erase...");
         fprintf( log_output, "Erase...");
-        dwStart = gettickscount();
+        dwStart = time(NULL);//time(NULL);
         if( erase_trionic( h ) == 0 )
         {
-            dwLength = gettickscount() - dwStart;
+            dwLength = time(NULL) - dwStart; //time(NULL);
             printf("ok (%3.1f s)\n", (float)dwLength/1000.0);
             fprintf( log_output, "ok (%3.1f s)\n", (float)dwLength/1000.0);
         }
         else
         {
-            dwLength = gettickscount() - dwStart;
+            dwLength = time(NULL) - dwStart;
             printf("failed (%3.1f s)\n", (float)dwLength/1000.0);
             fprintf( log_output, "failed (%3.1f s)\n", (float)dwLength/1000.0);
             // Flush data CAN channel
@@ -535,34 +535,34 @@ int main(int argc, char *argv[])
         {
             printf("Programming (Raw mode)...");
             fprintf( log_output, "Programming (Raw mode)...");
-            dwStart = gettickscount();
+            dwStart = time(NULL);
             i = program_trionic( h, binary, NULL, NULL, NULL );
         }
         else if( operation & TIS_WRITE )
         {
             printf("Programming (TIS mode)...");
             fprintf( log_output, "Programming (TIS mode)...");
-            dwStart = gettickscount();
+            dwStart = time(NULL);
             i = program_trionic_tis( h, binary, vin, swdate, tester );
         }
         else
         {
             printf("Programming...");
             fprintf( log_output, "Programming...");
-            dwStart = gettickscount();
+            dwStart = time(NULL);
             i = program_trionic( h, binary, vin, swdate, tester );
         }
 
         // Was the programming a success?
         if( i == 0 )
         {
-            dwLength = gettickscount() - dwStart;
+            dwLength = time(NULL) - dwStart;
             printf(" - ok (%4.1f min)\n", (float)dwLength/60000.0);
             fprintf( log_output, " - ok (%4.1f min)\n", (float)dwLength/60000.0);
         }
         else
         {
-            dwLength = gettickscount() - dwStart;
+            dwLength = time(NULL) - dwStart;
             printf(" - failed (%4.1f min)\n", (float)dwLength/60000.0);
             fprintf( log_output, " - failed (%4.1f min)\n", (float)dwLength/60000.0);
             // Flush data CAN channel
@@ -583,9 +583,9 @@ int main(int argc, char *argv[])
         // Read
         printf("Reading..." );
         fprintf( log_output, "Reading..." );
-        dwStart = gettickscount();
+        dwStart = time(NULL);
         i = read_trionic( h, 0x0, 0x80000, read_binary );
-        dwLength = gettickscount() - dwStart;
+        dwLength = time(NULL) - dwStart;
     
         if( i == 0x80000 )
         {
@@ -2391,7 +2391,7 @@ int wait_for_msg( FT_HANDLE handle, int id, int timeout, unsigned char *data )
     char not_received, got_it;
     long dwStart;
     
-    dwStart = gettickscount();
+    dwStart = time(NULL);
     timeout_temp = timeout;
     msg.id = 0x0;
     not_received = 1;
@@ -2418,7 +2418,7 @@ int wait_for_msg( FT_HANDLE handle, int id, int timeout, unsigned char *data )
 			//printf(".");
 		//}
 
-        //if( (gettickscount() - dwStart) > timeout )
+        //if( (time(NULL) - dwStart) > timeout )
 		//{
 		//	not_received = 0;	
 		//}
@@ -2427,7 +2427,7 @@ int wait_for_msg( FT_HANDLE handle, int id, int timeout, unsigned char *data )
         else 
 			usleep(1000);
     }
-	//printf("msg.id=%X timeout time: %d\n", msg.id, gettickscount() - dwStart);
+	//printf("msg.id=%X timeout time: %d\n", msg.id, time(NULL) - dwStart);
     return msg.id;
 }
 
